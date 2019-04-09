@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="8.0.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+		<PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Voronov.GetItTestApp.Core.Model\Voronov.GetItTestApp.Core.Model.csproj" />
+		<ProjectReference Include="..\Voronov.GetItTestApp.Core\Voronov.GetItTestApp.Core.csproj" />
+		<ProjectReference Include="..\Voronov.GetItTestApp.ViewModel\Voronov.GetItTestApp.ViewModel.csproj" />
+	</ItemGroup>
+
+</Project>

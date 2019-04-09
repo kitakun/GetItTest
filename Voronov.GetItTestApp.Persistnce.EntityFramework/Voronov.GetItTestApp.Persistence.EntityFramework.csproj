@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Voronov.GetItTestApp.Core.Model\Voronov.GetItTestApp.Core.Model.csproj" />
+    <ProjectReference Include="..\Voronov.GetItTestApp.Core\Voronov.GetItTestApp.Core.csproj" />
+    <ProjectReference Include="..\Voronov.GetItTestApp.Persistence.Abstraction\Voronov.GetItTestApp.Persistence.Abstraction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DbConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.Web", "Voronov.GetItTestApp.Web\Voronov.GetItTestApp.Web.csproj", "{BAE98D51-24A0-4424-BF94-15BDD5D536D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.Core", "Voronov.GetItTestApp.Core\Voronov.GetItTestApp.Core.csproj", "{EFC54B26-23C1-4FBE-8C7B-38039EC08946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.Core.Model", "Voronov.GetItTestApp.Core.Model\Voronov.GetItTestApp.Core.Model.csproj", "{7A517CC3-ED95-4139-9380-ABE126B63192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{8172FCC5-20E3-4905-8868-871C147F5755}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.Persistence.Abstraction", "Voronov.GetItTestApp.Persistence.Abstraction\Voronov.GetItTestApp.Persistence.Abstraction.csproj", "{3DD9045E-CF5D-4FBE-B89F-7D07653F7EE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.Persistence.EntityFramework", "Voronov.GetItTestApp.Persistnce.EntityFramework\Voronov.GetItTestApp.Persistence.EntityFramework.csproj", "{2A3E4B1C-6DAE-4F48-B110-8D354DC35251}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.ViewModel", "Voronov.GetItTestApp.ViewModel\Voronov.GetItTestApp.ViewModel.csproj", "{DBE58BA2-46E7-41C8-9764-37AB1612E7FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.Mapper", "Voronov.GetItTestApp.Mapper\Voronov.GetItTestApp.Mapper.csproj", "{CFCFAE2C-1523-4F2C-A3BF-E6B91F3EFD08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflow", "Workflow", "{E44B19C4-8621-41A5-A787-47D17028392F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voronov.GetItTestApp.Workflow.Abstraction", "Voronov.GetItTestApp.Workflow.Abstraction\Voronov.GetItTestApp.Workflow.Abstraction.csproj", "{7092F6F2-4EE8-41B3-A432-A30FE267DF89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voronov.GetItTestApp.Workflow", "Voronov.GetItTestApp.Workflow.\Voronov.GetItTestApp.Workflow.csproj", "{CDD65FE8-9222-4C2A-AC85-4FD2EFEAB695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAE98D51-24A0-4424-BF94-15BDD5D536D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE98D51-24A0-4424-BF94-15BDD5D536D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE98D51-24A0-4424-BF94-15BDD5D536D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE98D51-24A0-4424-BF94-15BDD5D536D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC54B26-23C1-4FBE-8C7B-38039EC08946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC54B26-23C1-4FBE-8C7B-38039EC08946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC54B26-23C1-4FBE-8C7B-38039EC08946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC54B26-23C1-4FBE-8C7B-38039EC08946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A517CC3-ED95-4139-9380-ABE126B63192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A517CC3-ED95-4139-9380-ABE126B63192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A517CC3-ED95-4139-9380-ABE126B63192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A517CC3-ED95-4139-9380-ABE126B63192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD9045E-CF5D-4FBE-B89F-7D07653F7EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD9045E-CF5D-4FBE-B89F-7D07653F7EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD9045E-CF5D-4FBE-B89F-7D07653F7EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD9045E-CF5D-4FBE-B89F-7D07653F7EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3E4B1C-6DAE-4F48-B110-8D354DC35251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3E4B1C-6DAE-4F48-B110-8D354DC35251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3E4B1C-6DAE-4F48-B110-8D354DC35251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3E4B1C-6DAE-4F48-B110-8D354DC35251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE58BA2-46E7-41C8-9764-37AB1612E7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE58BA2-46E7-41C8-9764-37AB1612E7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE58BA2-46E7-41C8-9764-37AB1612E7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE58BA2-46E7-41C8-9764-37AB1612E7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCFAE2C-1523-4F2C-A3BF-E6B91F3EFD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCFAE2C-1523-4F2C-A3BF-E6B91F3EFD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCFAE2C-1523-4F2C-A3BF-E6B91F3EFD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCFAE2C-1523-4F2C-A3BF-E6B91F3EFD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7092F6F2-4EE8-41B3-A432-A30FE267DF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7092F6F2-4EE8-41B3-A432-A30FE267DF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7092F6F2-4EE8-41B3-A432-A30FE267DF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7092F6F2-4EE8-41B3-A432-A30FE267DF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD65FE8-9222-4C2A-AC85-4FD2EFEAB695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD65FE8-9222-4C2A-AC85-4FD2EFEAB695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD65FE8-9222-4C2A-AC85-4FD2EFEAB695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD65FE8-9222-4C2A-AC85-4FD2EFEAB695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DD9045E-CF5D-4FBE-B89F-7D07653F7EE8} = {8172FCC5-20E3-4905-8868-871C147F5755}
+		{2A3E4B1C-6DAE-4F48-B110-8D354DC35251} = {8172FCC5-20E3-4905-8868-871C147F5755}
+		{7092F6F2-4EE8-41B3-A432-A30FE267DF89} = {E44B19C4-8621-41A5-A787-47D17028392F}
+		{CDD65FE8-9222-4C2A-AC85-4FD2EFEAB695} = {E44B19C4-8621-41A5-A787-47D17028392F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBCF31C5-1CB4-434A-95CF-92B51959B8DB}
+	EndGlobalSection
+EndGlobal

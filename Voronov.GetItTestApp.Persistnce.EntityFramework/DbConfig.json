@@ -1,0 +1,11 @@
+{
+	"DatabaseName": "temp",
+
+	"ServerUrl": "localhost",
+
+	"ServerPort": 5432,
+
+	"UserName": "postgres",
+
+	"Password": "admin"
+}

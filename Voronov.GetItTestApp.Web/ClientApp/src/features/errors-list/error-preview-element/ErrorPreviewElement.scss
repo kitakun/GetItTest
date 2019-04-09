@@ -1,0 +1,40 @@
+$background-panel-content-color: #fff;
+
+$panel-background-color: #f6f6f6;
+$panel-border-color: #dce8f1;
+$panel-padding: 25px;
+$panel-border-radius: 10px;
+
+.error-record{
+    padding: $panel-border-radius;
+    border-radius: $panel-border-radius / 2;
+    border: 1px solid darken($color: ($panel-border-color), $amount: 20);
+    margin: $panel-padding / 2;
+
+    .header{
+        height: 20px;
+        opacity: 0.8;
+    }
+
+    .table{
+        margin-bottom: 0px;
+    }
+
+    .no-margin{
+        margin: 0px;
+    }
+}
+
+.muted{
+    font-size: 80%;
+    color: grey;
+}
+
+.text{
+    &-left{
+        text-align: left;
+    }
+    &-right{
+        text-align: right;
+    }
+}

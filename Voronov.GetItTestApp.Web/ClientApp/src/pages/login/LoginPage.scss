@@ -1,0 +1,33 @@
+//@import '../../shared.scss';
+$background-panel-content-color: #fff;
+
+$panel-background-color: #f6f6f6;
+$panel-border-color: #dce8f1;
+$panel-padding: 25px;
+$panel-border-radius: 10px;
+
+.login-page {
+    width: 100%;
+    min-height: 100%;
+    margin-top: 20px;
+
+    background-color: $panel-background-color;
+    border-top: 1px solid $panel-border-color;
+    padding: $panel-padding;
+    text-align: center;
+    -webkit-border-radius: $panel-border-radius;
+    border-radius: $panel-border-radius;
+
+    .footer{
+        background-color: $panel-background-color;
+        border-top: 1px solid $panel-border-color;
+        padding: $panel-padding;
+        text-align: center;
+        -webkit-border-radius: 0 0 $panel-border-radius $panel-border-radius;
+        border-radius: 0 0 $panel-border-radius $panel-border-radius;
+    }
+}
+
+[hidden]{
+    display:none;
+}
